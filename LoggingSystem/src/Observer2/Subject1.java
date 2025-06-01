@@ -7,21 +7,22 @@ import java.util.*;
 
 public class Subject1 {
 
-    List<Observer2> map = new ArrayList<>();
+    List<Observer2> observers = new ArrayList<>();
 
     public void addObserver( Observer2 logObserver){
-        map.add(logObserver);
+        observers.add(logObserver);
     }
 
     public void removeObserver(Observer2 logObserver)
     {
-        map.remove(logObserver);
+
+        observers.remove(logObserver);
     }
 
     public void notifyAllObserver(LogMessage1 logMessage)
     {
-        System.out.println(map.size());
-        for(Observer2 observer : map) {
+//        System.out.println(observers.size());
+        for(Observer2 observer : observers) {
             observer.write(logMessage);
         }
     }
