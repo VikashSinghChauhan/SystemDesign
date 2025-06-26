@@ -1,0 +1,6 @@
+INFO 1748767962770 info message is here
+DEBUG 1748767962773 debug message is there
+ERROR 1748767962773 top priority message
+INFO 1748768406297 info message is here
+DEBUG 1748768406298 debug message is there
+ERROR 1748768406298 top priority message

@@ -13,7 +13,7 @@ import java.time.Instant;
  */
  class TokenBucket implements TokenBucInterface{
 
-    private final long capacity;    // Maximum number of tokens the bucket can hold
+    private final double capacity;    // Maximum number of tokens the bucket can hold
 
     private final double fillRate;   //Rate at which tokens are added to the bucket (tokens per second)
     private double tokens;           //current number of tokens in the bucket
