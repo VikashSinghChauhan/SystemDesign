@@ -5,5 +5,5 @@ public interface FileSystemComponent {
     void display(String indent);
     void delete();
     void setParent(Directory directory);
-    Directory getParent();
+    FileSystemComponent getParent();
 }
