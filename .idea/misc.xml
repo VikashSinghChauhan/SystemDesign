@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/ElevatorSystem/pom.xml" />
         <option value="$PROJECT_DIR$/FileSystem/pom.xml" />
         <option value="$PROJECT_DIR$/stackoverflow/pom.xml" />
+        <option value="$PROJECT_DIR$/JobScheduler/pom.xml" />
+        <option value="$PROJECT_DIR$/LockerDeliverySystem/pom.xml" />
+        <option value="$PROJECT_DIR$/DigitalWallet/pom.xml" />
       </list>
     </option>
   </component>
